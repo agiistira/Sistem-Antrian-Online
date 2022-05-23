@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:background="#1F4396"
+    tools:context=".Lokasi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOKASI BANK"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/map"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_lokasi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jl. Teuku Umar No 29, Tanjungpinang"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="5dp"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/et_source"
+            android:layout_gravity="center"
+            android:hint="Masukkan Lokasi Anda"
+            android:textSize="15sp"
+            android:padding="12dp"
+            android:background="@drawable/input_bg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lokasi Tujuan :"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:paddingStart="35dp"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:id="@+id/et_destination"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingStart="20sp"
+                android:text="Bank BRi Tanjungpinang"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:padding="13dp"
+                android:layout_gravity="start"
+                android:textSize="15sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button"
+            android:layout_gravity="center"
+            android:text="Lihat Lokasi"
+            android:layout_marginTop="20dp"
+            android:id="@+id/bt_track"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/activity_toolbar" />
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

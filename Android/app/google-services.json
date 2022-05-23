@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "29800120982",
+    "project_id": "ngantri-3120a",
+    "storage_bucket": "ngantri-3120a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29800120982:android:20fe715a1fef6fcd92b8b7",
+        "android_client_info": {
+          "package_name": "com.example.ngantritest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29800120982-h85vbkddq9bs98bqqi4tj6mv1cflu4jf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ngantritest",
+            "certificate_hash": "fc1fcbb2a8c7c8c3667dc680c0420ed57e652138"
+          }
+        },
+        {
+          "client_id": "29800120982-3ij91uklubt0q64i2sedh5pu24v24cds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCehDcPCHV4UWUJwXpSgH5P8YUj59WXBFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29800120982-3ij91uklubt0q64i2sedh5pu24v24cds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
